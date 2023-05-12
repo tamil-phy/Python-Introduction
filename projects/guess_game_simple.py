@@ -21,6 +21,6 @@ while tries < 5:
         print("Congratulations, you won!")
         break
 
-if tries == 5:
+if tries == 10:
     print("Sorry, you lost. The secret number was", secret_number)
 
