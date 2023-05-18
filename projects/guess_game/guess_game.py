@@ -5,7 +5,7 @@ def play_game():
     num_guesses = 0
     while True:
         guess = int(input('Guess the secret number between 1 and 100: '))
-        num_guesses += 1
+        num_guesses += 1 
         if guess == secret_num:
             print(f'Congratulations! You guessed the number in {num_guesses} guesses.')
             return num_guesses
